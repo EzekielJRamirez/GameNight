@@ -15,5 +15,29 @@
     <br/><br/>
     I need to make input boxes that take the amount of sets, reps
     and lbs that a user does per workout
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+
+    </form>
+
+    <form oninput="volume.value=parseInt(set.value) * parseInt(rep.value) * parseInt(lbs.value)">
+        <label for="set">set</label>
+        <input type="number" id="set" name="1" min="0" value="0">
+        <label for="rep">rep</label>
+        <input type="number" id="rep" name="2" min="0" value="0">
+        <label for="lbs">lbs</label>
+        <input type="number" id="lbs" name="3" min="0" value="0">
+
+        set x reps x lbs =
+        <!-- <input type="submit" value="Submit"> -->
+        <output name="volume" for="set rep lbs"></output>
+    </form>
 </body>
 </html>

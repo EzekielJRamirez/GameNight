@@ -1,0 +1,17 @@
+/*  internal style is when the css is declared on the same 
+    page as the html
+        - what is the priority of each type of css?
+    when it is written in a seperate css file it is called
+    external
+    inline css is when the style is written on the paragragh,
+    header, body, ect...
+*/
+body {
+    color: rgba(40, 40, 40, 1);
+    /* rgba - the a is alpha, values between 0 and 1
+    1 is most visible */
+    font-size: 3em;
+    background-color: rgba(180, 180, 200, 1);
+}
+
+h {font-size: 2em}
